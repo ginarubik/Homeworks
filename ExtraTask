@@ -1,0 +1,77 @@
+1. Feladat: Email Cím Formátum Ellenőrzése
+
+  Készíts egy programot, ami bekéri a felhasználó email címét, és ellenőrzi, hogy:
+  - tartalmaz-e @ karaktert
+  - van-e pont (.) a @ után
+
+  Ha az email cím megfelelő, írd ki: "Érvényes email cím.", ellenkező esetben: "Érvénytelen
+  email cím.".
+
+  Tipp: Használd az indexOf() metódust!
+
+  ---
+  2. Feladat: Nagybetűssé Alakítás
+
+  Kérj be egy mondatot a felhasználótól, majd alakítsd át az összes karaktert nagybetűssé és
+  írd ki az eredményt.
+
+  Példa kimenet:
+  Írj be egy mondatot: hello world
+  Eredmény: HELLO WORLD
+
+  ---
+  3. Feladat: Felhasználónév Ellenőrzése
+
+  Írj egy programot, amely bekéri a felhasználónevet és ellenőrzi, hogy:
+  - legalább 4 karakter hosszú-e
+  - nem tartalmaz-e szóközt
+
+  Tipp: Használd a length() és indexOf(" ") metódusokat!
+
+  ---
+  4. Feladat: Fizetés Számítás
+
+  Kérj be a felhasználótól két adatot: az óraszámot és az órabért. Számítsd ki a teljes
+  fizetést, de ha a munkavállaló több mint 40 órát dolgozott egy héten, akkor a 40 órát
+  meghaladó munkaórákért kétszeres órabér jár.
+
+  Példa:
+  Óraszám: 45
+  Órabér: 2000
+  Fizetés: 100000 Ft (40*2000 + 5*4000)
+
+  ---
+  5. Feladat: Magánhangzók Cseréje
+
+  Hozz létre egy String változót egy mondattal. Cseréld ki az összes magánhangzót (a, e, i, o,
+  u) csillag (*) karakterre és írd ki az eredményt.
+
+  Példa:
+  Eredeti: "Java programozas"
+  Módosított: "J*v* pr*gr*m*z*s"
+
+  Tipp: Használd többször a replace() metódust!
+
+  ---
+  6. Feladat: Szám Pozitivitásának Ellenőrzése
+
+  Írj egy programot, amely bekér egy egész számot és megállapítja, hogy pozitív, negatív vagy
+  nulla.
+
+  Példa kimenet:
+  Adj meg egy számot: -5
+  A szám negatív.
+
+  ---
+  7. Feladat: Életkor Kategória
+
+  Kérd be a felhasználó életkorát, majd kategorizáld:
+  - 0-12: "Gyermek"
+  - 13-17: "Tinédzser"
+  - 18-64: "Felnőtt"
+  - 65+: "Nyugdíjas"
+
+  ---
+  8. Feladat: Páros vagy Páratlan
+
+  Kérj be egy egész számot és állapítsd meg, hogy páros vagy páratlan.
