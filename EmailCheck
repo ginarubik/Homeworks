@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class EmailCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Bekérés
+        System.out.print("Add meg az email címed: ");
+        String email = scanner.nextLine();
+
+        // Ellenőrzések
+        int atIndex = email.indexOf("@");      // @ karakter helye
+        int dotIndex = email.indexOf(".", atIndex); // . helye az @ után
+
+        // Feltételek ellenőrzése
+        if (atIndex != -1 && dotIndex != -1) {
+            System.out.println("Érvényes email cím.");
+        } else {
+            System.out.println("Érvénytelen email cím.");
+        }
+    }
+}
