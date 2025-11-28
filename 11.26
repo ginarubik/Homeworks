@@ -1,0 +1,82 @@
+Pár extra:
+ 1. Feladat: Szorzótábla
+
+  Kérj be egy számot (1-10), majd írd ki a szorzótábláját 1-től 10-ig.
+
+  Példa:
+  Adj meg egy számot: 7
+  7 x 1 = 7
+  7 x 2 = 14
+  7 x 3 = 21
+  ...
+  7 x 10 = 70
+
+  ---
+  
+  
+  2. Feladat: Jelszó Erősség Ellenőrzése
+
+  Kérj be egy jelszót, majd for ciklussal és charAt() metódussal ellenőrizd, hogy:
+  - tartalmaz-e nagybetűt
+  - tartalmaz-e kisbetűt
+  - tartalmaz-e számot
+
+  Használd a Character.isUpperCase(), Character.isLowerCase(), Character.isDigit() metódusokat!
+
+  Példa:
+  Jelszó: Alma123
+  Tartalmaz nagybetűt: igen
+  Tartalmaz kisbetűt: igen
+  Tartalmaz számot: igen
+  Erős jelszó!
+
+  ---
+  
+  3. Feladat: Átlag és Legkisebb/Legnagyobb
+
+  Kérj be 5 számot egymás után, majd írd ki:
+  - az átlagukat
+  - a legkisebbet
+  - a legnagyobbat
+
+  Példa:
+  1. szám: 10
+  2. szám: 5
+  3. szám: 8
+  4. szám: 12
+  5. szám: 3
+  Átlag: 7.6
+  Legkisebb: 3
+  Legnagyobb: 12
+
+  ---
+  
+  4. Feladat: Szavak Számlálása
+
+  Kérj be egy mondatot, majd számold meg, hány szó van benne for ciklussal (számold a
+  szóközöket).
+
+  Példa:
+  Mondat: Ez egy teszt mondat
+  Szavak száma: 4
+
+  ---
+  
+  5. Feladat: Szám Kiírása Csillagokkal
+
+  Kérj be egy számot (1-20), majd írd ki annyi csillagot egy sorban.
+
+  Példa:
+  Adj meg egy számot: 7
+  *******
+
+  
+  ---
+  
+  6. Feladat: Osztók Keresése
+
+  Kérj be egy pozitív egész számot, majd for ciklussal keresd meg és írd ki az összes osztóját.
+
+  Példa:
+  Adj meg egy számot: 12
+  12 osztói: 1, 2, 3, 4, 6, 12
