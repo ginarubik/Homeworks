@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class SalaryCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Adatok bekérése
+        System.out.print("Óraszám: ");
+        int hours = scanner.nextInt();
+
+        System.out.print("Órabér: ");
+        int hourlyWage = scanner.nextInt();
+
+        int salary;
+
+        // Fizetés számítása túlóra figyelembevételével
+        if (hours > 40) {
+            int overtimeHours = hours - 40;
+            salary = (40 * hourlyWage) + (overtimeHours * hourlyWage * 2);
+        } else {
+            salary = hours * hourlyWage;
+        }
+
+        // Eredmény kiírása
+        System.out.println("Fizetés: " + salary + " Ft");
+    }
+}
