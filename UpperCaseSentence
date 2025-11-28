@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class UpperCaseSentence {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Mondat bekérése
+        System.out.print("Írj be egy mondatot: ");
+        String sentence = scanner.nextLine();
+
+        // Nagybetűssé alakítás
+        String upper = sentence.toUpperCase();
+
+        // Eredmény kiírása
+        System.out.println("Eredmény: " + upper);
+    }
+}
