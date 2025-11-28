@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class AgeCategory {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Életkor bekérése
+        System.out.print("Add meg az életkorodat: ");
+        int age = scanner.nextInt();
+
+        // Kategorizálás
+        if (age >= 0 && age <= 12) {
+            System.out.println("Gyermek");
+        } else if (age >= 13 && age <= 17) {
+            System.out.println("Tinédzser");
+        } else if (age >= 18 && age <= 64) {
+            System.out.println("Felnőtt");
+        } else if (age >= 65) {
+            System.out.println("Nyugdíjas");
+        } else {
+            System.out.println("Érvénytelen életkor.");
+        }
+    }
+}
