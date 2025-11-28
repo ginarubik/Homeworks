@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class EvenOdd {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Szám bekérése
+        System.out.print("Adj meg egy egész számot: ");
+        int number = scanner.nextInt();
+
+        // Páros vagy páratlan ellenőrzése
+        if (number % 2 == 0) {
+            System.out.println("A szám páros.");
+        } else {
+            System.out.println("A szám páratlan.");
+        }
+    }
+}
