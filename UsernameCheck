@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class UsernameCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Felhasználónév bekérése
+        System.out.print("Add meg a felhasználónevet: ");
+        String username = scanner.nextLine();
+
+        // Feltételek ellenőrzése
+        boolean hosszOK = username.length() >= 4;
+        boolean nincsSzokoz = username.indexOf(" ") == -1;
+
+        if (hosszOK && nincsSzokoz) {
+            System.out.println("Érvényes felhasználónév.");
+        } else {
+            System.out.println("Érvénytelen felhasználónév.");
+        }
+    }
+}
